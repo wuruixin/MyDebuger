@@ -1,0 +1,10 @@
+77491BA3 eb07                           jmp 0x77491bac
+77491BAC c745fcfeffffff                 mov dword [ebp-0x4], 0xfffffffe
+77491BAC c745fcfeffffff                 mov dword [ebp-0x4], 0xfffffffe
+77491BB3 8b4df0                         mov ecx, [ebp-0x10]
+77491BB6 64890d00000000                 mov [fs:0x0], ecx
+77491BBD 59                             pop ecx
+77491BBE 5f                             pop edi
+77491BBF 5e                             pop esi
+77491BC0 5b                             pop ebx
+77491BC1 c9                             leave
